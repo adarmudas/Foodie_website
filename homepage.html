@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link href="./styles.css" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="witdth=device-width, initial-scale=1">
+<head>
+    <link rel="icon" href="./Images/favicon.png" type="image/x-icon">
+    <title>Foodie</title>
+</head>
+
+<body>
+    <header>
+        <a href="./homepage.html">
+            <img class="logo" src="./Images/logo_trans.png" alt="foodie_logo">
+        </a>
+        <nav>
+            <ul class="nav_links"><!--declare internal page links-->
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./register.html">Sign in or Sign up</a></li>
+                <li><a href="./support.html">Support</a></li>
+            </ul>
+        </nav><!--end of internal links-->
+        <img class="instagram" src="./Images/insta.png" alt="foodie_instagram">
+    </header>
+
+    <div class="heading"><!--Header containing h1, h2 and search bar-->
+        <h1>Foodie</h1>
+        <h2>Savour the flavour! Delivered to your door</h2>
+        <form action="" class="search_bar">
+            <input type="text" placeholder="Enter Postcode" name="postcode">
+            <button type="submit"><img src="./Images/search.png"></button>
+        </form>
+    </div>
+    <div class="results_heading">
+        <h2 class="centered_heading">Search Results</h2>
+    </div>
+    <div class="flex_container"><!--flex box containing information for restaraunt and link to their menu-->
+        <div class="flex_item">
+            <img class="greek_img" src="./Images/greedy_greek.jpg" alt="greek_food">
+        </div>
+        <div class="flex_item">
+            <h2 class="company_name">Greedy Greek</h2>
+            <p>Experience Greek fine dining specialising in<br>Souvlaki (Gyros).</p>
+        </div>
+        <div class="flex_item">
+            <ul>
+                <li>15-30min</li>
+                <li>Delivery from £1.50 no min order</li>
+            </ul>
+            <button type="submit" name="order_button">View menu</button>
+        </div>
+    </div>
+    
+    <div class="footer">
+        <h3>Copyright 2023 Foodie</h3>
+        <br>
+        <p><a
+            href="https://www.freepik.com/free-photo/fresh-sandwich-cutting-board-with-healthy-tomatoes-generative-ai_40936838.htm#query=gyros&position=8&from_view=search&track=sph">Image
+            by vecstock</a> on Freepik</p>
+        <p><a
+            href="https://www.freepik.com/free-photo/chicken-wings-barbecue-sweetly-sour-sauce-picnic-summer-menu-tasty-food-top-view-flat-lay_6713739.htm#query=food&position=17&from_view=keyword&track=sph">Image
+            by timolina</a> on Freepik</p>
+    </div>
+</body>
+
+</html>
